@@ -56,7 +56,7 @@ def printList(x):
     print(plainText)
 randomList = ["day","weak","month","year"]
 choosenWord = random.choice(randomList)
-print(choosenWord)
+# print(choosenWord)
 guessWord = ""
 
 for x in choosenWord:
