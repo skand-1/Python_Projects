@@ -15,13 +15,13 @@ for i in range(0,nr_symbols):
     password.append(random.choice(symbols))
 for i in range(0,nr_numbers):
     password.append(random.choice(numbers))
-print(password)
+# print(password)
 random.shuffle(password)
-print(password)
+# print(password)
 password_string = ""
 for char in password:
     password_string+=char
-print(password_string)
+print("your generated password is "+ password_string)
 
 
 
